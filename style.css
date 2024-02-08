@@ -1,5 +1,4 @@
 * {
-    /*border: 1px solid #fff;*/
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -47,10 +46,7 @@ h2 {
 }
 
 /* Carousels*/
-.carousel-inner {
-    background-color: rgba(0, 0, 0, 1);
-    border: 2px solid #000;
-}
+
 
 @media only screen and (max-width: 1600px){
     .photo-size {
@@ -74,6 +70,29 @@ h2 {
         height: 225px;
         max-height: 225px;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-container {
+display: flex;
+justify-content: center;
+}
+
+.carousel {
+width: 60%; /* Ajuste conforme necessário */
+max-width: 800px; /* Defina um valor máximo conforme necessário */
+overflow: hidden;
+}
+
+.carousel img {
+width: 100%;
+height: auto;
+display: block;
+}
+  
 }
 
 
@@ -176,10 +195,8 @@ h2 {
 
 .container-fluid .container h2 {
     overflow-y: hidden;
-    font-family: 'Great Vibes', cursive;
     text-align: center;
     line-height: 3rem;
-    text-decoration: underline overline solid #333;
     letter-spacing: 3.5px;
     font-weight: bolder;
 }
@@ -188,7 +205,6 @@ h2 {
     text-align: center;
     font-size: 18px;
     line-height: 1.8rem;
-    font-family: 'Indie Flower', cursive;
     font-weight: bold;
     word-spacing: 0.4rem;
     letter-spacing: 0.08rem;
@@ -243,10 +259,10 @@ h2 {
 }
 
 body{
-    background-color: #1f1f1f;
+    background-color: #b77f50;
 }
 
 footer{
-    background-color: #1f1f1f;
+    background-color: #b77f50;
     padding-bottom: 0px;
 }
